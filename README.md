@@ -1,4 +1,4 @@
-# Free ChatGPT Playground (Ad-supported)
+# Unlimited GPT
 
 A super user-friendly Next.js app that lets users chat with the ChatGPT API **without sign-up** and shows an ad **every 10 prompts**.
 
