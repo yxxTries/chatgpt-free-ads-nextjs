@@ -12,18 +12,6 @@ A super user-friendly Next.js app that lets users chat with the ChatGPT API **wi
 
 ## Quickstart
 
-1. **Install deps**
-   ```bash
-   npm i
-   ```
-
-2. **Set environment variables**
-   Copy `.env.example` to `.env.local` and fill values.
-   ```bash
-   cp .env.example .env.local
-   ```
-
-3. **Run**
    ```bash
    npm run dev
    ```
@@ -48,4 +36,3 @@ When AdSense variables are not configured, the app shows **placeholders** so you
 - A simple in-memory per-IP rate limit protects the proxy. For production, use Upstash Redis or a proper gateway.
 - The "ad roll" is implemented with a modal that triggers on every 10th prompt via `localStorage` counter.
 - The UI is intentionally minimal and responsive, with a glassy card aesthetic.
-- To add authentication and a database later, consider NextAuth + Supabase and store conversations keyed by anonymous session IDs.
